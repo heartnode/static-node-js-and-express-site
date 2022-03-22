@@ -1,6 +1,7 @@
 extends layout 
 
 block content 
+    //- If the error object exists print out the message, status and if the stack is not undefined or null also print that out as well
     if err 
         h1=err.message  
         h2=err.status
