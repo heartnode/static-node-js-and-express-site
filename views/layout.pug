@@ -6,6 +6,8 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    //- Extra Credit getting animated gifts
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css", rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
@@ -14,17 +16,17 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src='/static/img/profile.jpg', alt='Profile Image of Weinian He')
         .dev-intro-box
 
           //- Replace with your name
-          h5 Name
+          h5 Weinian He
 
           //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p I am a full stack developer, program in Javascript, plays the piano.
 
           //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
+          a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
@@ -32,8 +34,9 @@ html(lang="en" dir="ltr")
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
           //- Replace with your name — this is for the mobile layout
-          span Name
+          span Weinian He
 
       block content
 
-  script(src='/static/js/script.js')
+  block scripts 
+    script(src='/static/js/script.js')

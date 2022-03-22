@@ -1,0 +1,49 @@
+{
+    "projects":[
+        {
+            "id":0,
+            "project_name":"Random Quote Generator",
+            "description":"Project 1 - An app that generate Quote from a list of Quotes with a click of a button or better yet automatically refreshes with a new quote ever few seconds!",
+            "technologies":["javascript","chrome","css","html"],
+            "live_link":"https://heartnode.github.io/project1",
+            "github_link":"https://github.com/heartnode/techdegree-project-1.git",
+            "image_urls":["/static/img/project1-0.png","/static/img/project1-1.png","/static/img/project1-2.png","/static/img/project1-3.png"] 
+        },
+        {
+            "id":1,
+            "project_name":"Pagination and Filter Javascript",
+            "description":"Project 2 - An app that gets a list of students and turn it into Paged and filtered list. You can even use Regular Expression for the search.",
+            "technologies":["javascript","chrome","css","html"],
+            "live_link":"https://heartnode.github.io/project2",
+            "github_link":"https://github.com/heartnode/data-pagination-and-filtering.git",
+            "image_urls":["/static/img/project2-0.png","/static/img/project2-1.png","/static/img/project2-2.png","/static/img/project2-3.png"] 
+        },
+        {
+            "id":2,
+            "project_name":"Javascript Interactive Form",
+            "description":"Project 3 - an mock up Registration page for Javascript Full Stack Conference. Dynamic populate of form fields, Real time validation during inputs. It also backward compatible without Javascript supports.",
+            "technologies":["javascript","chrome","css","html"],
+            "live_link":"https://heartnode.github.io/project3",
+            "github_link":"https://github.com/heartnode/interactive-form.git",
+            "image_urls":["/static/img/project3-0.png","/static/img/project3-1.png","/static/img/project3-2.png","/static/img/project3-3.png"] 
+        },
+        {
+            "id":3,
+            "project_name":"Object Oriented Programming Game",
+            "description":"Project 4 Phase Hunter - Guess your phrase from a list of built in phases, You got five tries! Win Win Win...",
+            "technologies":["javascript","chrome","css","html"],
+            "live_link":"https://heartnode.github.io/project4",
+            "github_link":"https://github.com/heartnode/oop-game.git",
+            "image_urls":["/static/img/project4-0.png","/static/img/project4-1.png","/static/img/project4-2.png","/static/img/project4-3.png"] 
+        },
+        {
+            "id":4,
+            "project_name":"Public API Requests",
+            "description":"Project 5 Utilize Random User Generator API (https://randomuser.me/) to grab 1nformation for 12 random \"employees\" and populate the employee directory.",
+            "technologies":["javascript","chrome","css","html"],
+            "live_link":"https://heartnode.github.io/project5",
+            "github_link":"https://github.com/heartnode/public-api-requests.git",
+            "image_urls":["/static/img/project5-0.png","/static/img/project5-1.png","/static/img/project5-2.png","/static/img/project5-3.png"] 
+        }
+    ]
+}
